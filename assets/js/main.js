@@ -153,7 +153,7 @@
       const message = form.message.value.trim();
       const subject = encodeURIComponent(`Contact portfolio — ${name}`);
       const body = encodeURIComponent(`${message}\n\n—\n${name}\n${email}`);
-      window.location.href = `mailto:ibrahimly.il.il@gmail.com?subject=${subject}&body=${body}`;
+      window.location.href = `mailto:contact@ibrahimly.com?subject=${subject}&body=${body}`;
     });
   }
 })();
